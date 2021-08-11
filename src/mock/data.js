@@ -38,7 +38,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pollerapantalon.jpg',
     title: 'Pollera Pantalón NGO',
-    info: 'I developed an institutional Website based on Wordpress for an entrepreneurship women non governmental organization.',
+    info: 'I developed an institutional Website based on Wordpress for a non governmental entrepreneurship women organization.',
     info2: '',
     url: 'http://pollerapantalon.org/',
     repo: '', // if no repo, the button will not show up
