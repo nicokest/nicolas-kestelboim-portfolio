@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Nicolás Kestelboim | Front End Developer',
   lang: 'en, es',
-  description: 'Web Developer specialized in React',
+  description: 'Web Developer specialized in React, Gatsby and WordPress',
 };
 
 // HERO DATA
@@ -58,7 +58,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Do you have a web project?',
   btn: 'Write me',
-  email: 'nicolas.kestelboim@gmail.com',
+  email: 'nicolas@kestel.dev',
 };
 
 // FOOTER DATA
