@@ -47,7 +47,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'esineron.jpg',
     title: 'Esineron - Easy Building',
-    info: 'I worked on  the development of this spanish construction company website base on Wordpress.',
+    info: 'I worked on  the development of this spanish construction company website made with Wordpress.',
     info2: '',
     url: 'https://www.esineron.com/',
     repo: '', // if no repo, the button will not show up
