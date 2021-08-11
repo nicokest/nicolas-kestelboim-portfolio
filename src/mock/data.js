@@ -12,17 +12,14 @@ export const heroData = {
   title: 'Hi, I am',
   name: 'Nicolás Kestelboim',
   subtitle: 'and I love Web Development',
-  cta: 'Send me a message',
+  cta: 'Contact me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'kestel.jpg',
   paragraphOne:
-    'Front-End Developer Jr. con experiencia desarrollando sitios web responsive. Durante los últimos dos años trabajé de forma freelance en el desarrollo de sitios para pequeños y medianos clientes. Conocimientos en las siguientes tecnologías y lenguajes: HTML, CSS, Sass, Javascript, Ruby on Rails, React, GatsbyJS, GraphQL, MySQL, Wordpress y Shopify.',
-  paragraphTwo:
-    'Anteriormente como Social Media Manager participé en el desarrollo e implementación de estrategias digitales a través de contenido web, email marketing y redes sociales, para las siguientes marcas: Personal, Arnet, Seguros La Caja, Experta ART, Actimel, Laboratorios ELEA, Consejo Interamericano de Comercio y Producción, Rust-Oleum Latinoamérica, GlobalLogic, Guajira Viajes y Turismo.',
-  paragraphThree: '',
+    'Front-End Developer with experience developing responsive websites. During the last two years I worked as a freelance developing sites for small and medium clients. Knowledge of the following technologies and languages: HTML, CSS, Sass, Javascript, Ruby on Rails, React, GatsbyJS, GraphQL, MySQL, Wordpress and Shopify.',
   resume: 'https://www.linkedin.com/in/nicolaskestelboim/',
 };
 
@@ -30,30 +27,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'frigo.jpg',
+    title: 'Frigo Music Maker',
+    info: 'I made the musical grid and player front end for a food gaming section.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.frigocheeseheads.com/en/fun-and-game',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'pollerapantalon.jpg',
+    title: 'Pollera Pantalón NGO',
+    info: 'I developed an institutional Website based on Wordpress for an entrepreneurship women non governmental organization.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'http://pollerapantalon.org/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'esineron.jpg',
+    title: 'Esineron - Easy Building',
+    info: 'I worked on  the development of this spanish construction company website base on Wordpress.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.esineron.com/',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -69,28 +66,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nicolaskestelboim/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nicokest',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
