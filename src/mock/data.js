@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'kestel.jpg',
   paragraphOne:
-    'Front-End Developer with experience developing responsive websites. During the last two years I worked as a freelance developing sites for small and medium clients. Knowledge of the following technologies and languages: HTML, CSS, Sass, Javascript, Ruby on Rails, React, GatsbyJS, GraphQL, MySQL, Wordpress and Shopify.',
+    'Front-End Developer with experience developing responsive websites. During the last two years I worked as a freelance developing sites for small and medium clients. Knowledge of the following technologies and languages: HTML, CSS, Sass, Javascript, Ruby on Rails, React, GatsbyJS, GraphQL, MySQL, GIT, Wordpress and Shopify.',
   resume: 'https://www.linkedin.com/in/nicolaskestelboim/',
 };
 
