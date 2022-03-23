@@ -52,6 +52,15 @@ export const projectsData = [
     url: 'https://www.esineron.com/',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'coach.jpg',
+    title: 'Lorena Orellana Coach',
+    info: 'WordPress website for a executive and life coach.',
+    info2: '',
+    url: 'https://lorenaorellana.com.ar/',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
