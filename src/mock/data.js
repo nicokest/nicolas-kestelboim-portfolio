@@ -29,7 +29,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'frigo.jpg',
     title: 'Frigo Music Maker',
-    info: 'I made the musical grid and player front end for a food gaming section.',
+    info: 'I made the musical grid and player front end for a food company gaming section.',
     info2: '',
     url: 'https://www.frigocheeseheads.com/en/fun-and-game',
     repo: '', // if no repo, the button will not show up
